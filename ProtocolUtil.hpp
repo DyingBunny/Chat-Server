@@ -47,7 +47,7 @@ public:
     }
     return false;
   }
-    static bool LoginEnter(unsigned int &id,std::string &passwd)
+    static bool LoginEnter(unsigned int id,std::string &passwd)
     {
 	std::cout<<"Please Enter Your ID:";
 	std::cin>>id;
